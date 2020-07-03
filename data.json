@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "Random Quote Generator",
+      "description": "A landing page that cycles through an array of random quotes",
+      "technologies": ["HTML","CSS","JavaScript (Vanilla)"],
+      "live-link": "https://mjparty88.github.io/Random-Number-Generator/",
+      "github_link": "https://github.com/mjparty88/Random-Number-Generator",
+      "image_urls": []
+    },
+    {
+      "id": 2,
+      "project_name": "Page Pagination and Filtering",
+      "description": "A page with random users, pagination links, and a search bar",
+      "technologies": ["HTML","CSS","JavaScript (Vanilla)"],
+      "live-link": "https://mjparty88.github.io/Page-Pagination-and-Filtering/",
+      "github_link": "https://github.com/mjparty88/Page-Pagination-and-Filtering",
+      "image_urls": []
+    },
+    {
+      "id": 3,
+      "project_name": "Form Validation",
+      "description": "A make-believe registration form for a JavaScript even  with form validation and dynamic error messages that guide the user",
+      "technologies": ["HTML","CSS","JavaScript (Vanilla)", "RegEx"],
+      "live-link": "https://mjparty88.github.io/Form-Validation/",
+      "github_link": "https://github.com/mjparty88/Form-Validation",
+      "image_urls": []
+    },
+    {
+      "id": 4,
+      "project_name": "Phrase Hunter",
+      "description": "A fun 'Wheel of Fortune' style game, where you select the letters in the phrase - but instead of money, your prize is not losing all your lives!",
+      "technologies": ["HTML","CSS","Object Oriented JavaScript"],
+      "live-link": "https://mjparty88.github.io/Phrase-Hunter/",
+      "github_link": "https://github.com/mjparty88/Phrase-Hunter",
+      "image_urls": []
+    },
+    {
+      "id": 5,
+      "project_name": "Public API and Modal",
+      "description": "A simple, API enabled website that displays 10 random users. Each can be selected, creating a modal view, and can be searched",
+      "technologies": ["HTML","CSS","Object Oriented JavaScript", "Promises", "RegEx"],
+      "live-link": "https://mjparty88.github.io/Public-API-and-Modal/",
+      "github_link": "https://github.com/mjparty88/Public-API-and-Modal",
+      "image_urls": []
+    }
+  ]
+}
