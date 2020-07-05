@@ -14,7 +14,7 @@ html(class="no-js" lang="en" dir="ltr")
         block sidebar
           br
           .cell.shrink
-            img.thumbnail(src='/static/images/mapartridge.jpg')
+            img.thumbnail(src='/static/images/mapartridge-550x.jpg')
           .cell.auto
 
             //- Add your name here.
@@ -26,6 +26,9 @@ html(class="no-js" lang="en" dir="ltr")
 
             //- Add about page route to the href below.
             a(href='/about') Learn More →
+          //- added a new cell to contain my logo
+          .cell.auto
+            img.mysidebarlogo(src=`/static/images/Matt_Partridge.svg`)
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -33,7 +36,7 @@ html(class="no-js" lang="en" dir="ltr")
           button.menu-icon(type='button', data-toggle='my-info')
 
           //- Add your name here.  This is for the mobile screen sized version.
-          span.title-bar-title Name
+          span.title-bar-title Matt Partridge
       block content
 
 

@@ -1,49 +1,87 @@
 {
   "projects": [
     {
-      "id": 1,
+      "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "A landing page that cycles through an array of random quotes",
-      "technologies": ["HTML","CSS","JavaScript (Vanilla)"],
-      "live-link": "https://mjparty88.github.io/Random-Number-Generator/",
+      "description": "A landing page that displays a random quote. Every ten seconds a new quote randomly displays to the screen with a random color as its background. Extremely useful for all those times you've wanted to say something impactful, but can't quite grasp the words.",
+      "technologies": [
+        "JavaScript (Vanilla)",
+        "HTML",
+        "CSS"
+      ],
+      "live_link": "https://mjparty88.github.io/Random-Number-Generator/",
       "github_link": "https://github.com/mjparty88/Random-Number-Generator",
-      "image_urls": []
+      "image_urls": [
+        "/static/images/random-quote-550x.jpg",
+        "/static/images/random-quote-1200x.jpg"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Page Pagination and Filtering",
+      "description": "A page with an array of random users. The page filters array, limiting those displayed to 10 per page. A search bar helps you to further filter the results.",
+      "technologies": [
+        "JavaScript (Vanilla)",
+        "HTML",
+        "CSS"
+        ],
+      "live_link": "https://mjparty88.github.io/Page-Pagination-and-Filtering/",
+      "github_link": "https://github.com/mjparty88/Page-Pagination-and-Filtering",
+      "image_urls": [
+        "/static/images/pagination-550x.jpg",
+        "/static/images/pagination-1200x.jpg"
+      ]
     },
     {
       "id": 2,
-      "project_name": "Page Pagination and Filtering",
-      "description": "A page with random users, pagination links, and a search bar",
-      "technologies": ["HTML","CSS","JavaScript (Vanilla)"],
-      "live-link": "https://mjparty88.github.io/Page-Pagination-and-Filtering/",
-      "github_link": "https://github.com/mjparty88/Page-Pagination-and-Filtering",
-      "image_urls": []
+      "project_name": "Form Validation",
+      "description": "A registration form for a bogus JavaScript event. The form has client-side form validation and dynamic error messages that guide the user",
+      "technologies": [
+        "JavaScript (Vanilla)",
+        "RegEx",
+        "HTML",
+        "CSS"
+        ],
+      "live_link": "https://mjparty88.github.io/Form-Validation/",
+      "github_link": "https://github.com/mjparty88/Form-Validation",
+      "image_urls": [
+        "/static/images/form-validation-550x.jpg",
+        "/static/images/form-validation-1200x.jpg"
+      ]
     },
     {
       "id": 3,
-      "project_name": "Form Validation",
-      "description": "A make-believe registration form for a JavaScript even  with form validation and dynamic error messages that guide the user",
-      "technologies": ["HTML","CSS","JavaScript (Vanilla)", "RegEx"],
-      "live-link": "https://mjparty88.github.io/Form-Validation/",
-      "github_link": "https://github.com/mjparty88/Form-Validation",
-      "image_urls": []
+      "project_name": "Phrase Hunter",
+      "description": "A fun 'Wheel of Fortune' style game where you select the letters in the phrase. However, instead of winning money, your prize is not losing all your lives!",
+      "technologies": [
+        "Object Oriented JavaScript",
+        "HTML",
+        "CSS"
+        ],
+      "live_link": "https://mjparty88.github.io/Phrase-Hunter/",
+      "github_link": "https://github.com/mjparty88/Phrase-Hunter",
+      "image_urls": [
+        "/static/images/phrase-hunter-550x.jpg",
+        "/static/images/phrase-hunter-1220x.jpg"
+      ]
     },
     {
       "id": 4,
-      "project_name": "Phrase Hunter",
-      "description": "A fun 'Wheel of Fortune' style game, where you select the letters in the phrase - but instead of money, your prize is not losing all your lives!",
-      "technologies": ["HTML","CSS","Object Oriented JavaScript"],
-      "live-link": "https://mjparty88.github.io/Phrase-Hunter/",
-      "github_link": "https://github.com/mjparty88/Phrase-Hunter",
-      "image_urls": []
-    },
-    {
-      "id": 5,
       "project_name": "Public API and Modal",
-      "description": "A simple, API enabled website that displays 10 random users. Each can be selected, creating a modal view, and can be searched",
-      "technologies": ["HTML","CSS","Object Oriented JavaScript", "Promises", "RegEx"],
-      "live-link": "https://mjparty88.github.io/Public-API-and-Modal/",
+      "description": "A simple website that fetches and displays 10 random users using JavaScript promises (i.e. fetch and aysnc/await). Each can be selected, displaying a modal view that lets you cycle through the users. There is also a searched bar (we like search bars).",
+      "technologies": [
+        "Object Oriented JavaScript",
+        "Promises",
+        "RegEx",
+        "HTML",
+        "CSS"
+        ],
+      "live_link": "https://mjparty88.github.io/Public-API-and-Modal/",
       "github_link": "https://github.com/mjparty88/Public-API-and-Modal",
-      "image_urls": []
+      "image_urls": [
+        "/static/images/api-request-and-modal-550x.jpg",
+        "/static/images/api-request-and-modal-1200x.jpg"
+      ]
     }
   ]
 }

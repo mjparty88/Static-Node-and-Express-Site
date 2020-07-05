@@ -6,10 +6,13 @@ const projectsRouter = require('./routes/projects')
 const app = express();
 const port = 3000;
 
+//sets pug as the view engine
 app.set('view engine', 'pug');
 
+//applies the static routes
 app.use('/static', express.static('public'));
 
+//applies the modular routers
 app.use(homeRouter);
 app.use('/about', aboutRouter)
 app.use('/projects', projectsRouter)
@@ -28,6 +31,5 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
+//listens on port 3000
 app.listen(port, () => console.log(`The app is listening at http://localhost:${port}`));
-
-  //https://placehold.it/550x350

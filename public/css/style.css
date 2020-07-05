@@ -1,10 +1,18 @@
+/*importing Nunum Gothic from Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/*Changed from 'Merriweather', serif;*/
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
+
+/*Changed from 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+
   h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -56,9 +64,20 @@ a:hover{
   line-height: 0;
 }
 
+.mylogo{
+  display: inline-block;
+  width: 150px;
+}
+
+.mysidebarlogo{
+  width: 100px;
+}
+
+/*Changed from background: #121213;*/
+
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #313335;
   color: #fff;
   box-shadow: none !important;
 }
@@ -68,8 +87,10 @@ a:hover{
     color: #999;
   }
 
+/*Changed from 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -88,8 +109,10 @@ a:hover{
   border-bottom: 1px solid #eaeaea;
 }
 
+/*Changed from 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: 'Nanum Gothic', sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -147,4 +170,10 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+/*Added a gendle background color - it wasn't there before*/
+
+body{
+  background: #F4F5F6;;
 }
