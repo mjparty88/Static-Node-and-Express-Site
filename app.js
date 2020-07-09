@@ -4,13 +4,7 @@ const homeRouter = require('./routes')
 const aboutRouter = require('./routes/about')
 const projectsRouter = require('./routes/projects')
 const app = express();
-let port
-
-if(!process.env.port) {
-  port = 3000 //port for dev
-  } else {
-    port = process.env.port //port for deployment
-  };
+let port = process.env.PORT || 3000;
 
 //sets pug as the view engine
 app.set('view engine', 'pug');
