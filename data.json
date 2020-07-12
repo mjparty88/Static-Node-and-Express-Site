@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "A landing page that displays a random quote. Every ten seconds a new quote randomly displays to the screen with a random color as its background. Extremely useful for all those times you've wanted to say something impactful, but can't quite grasp the words.",
+      "description": "A landing page that displays a random quote. Every ten seconds a new quote randomly displays to the screen. When this happens, a random color is also set as the background. This makes use of JavaScipt's native Math object. This project is extremely useful for all those times you want to read something impactful. Also, if you don't want to wait 10 seconds for the next quote do display, just click 'Show another quote'.",
       "technologies": [
         "JavaScript (Vanilla)",
         "HTML",
@@ -13,13 +13,15 @@
       "github_link": "https://github.com/mjparty88/Random-Number-Generator",
       "image_urls": [
         "/static/images/random-quote-550x.jpg",
-        "/static/images/random-quote-1200x.jpg"
+        "/static/images/random-quote-1200x.jpg",
+        "/static/images/random-quote1-1200x.jpg",
+        "/static/images/random-quote2-1200x.jpg"
       ]
     },
     {
       "id": 1,
       "project_name": "Page Pagination and Filtering",
-      "description": "A page with an array of random users. The page filters array, limiting those displayed to 10 per page. A search bar helps you to further filter the results.",
+      "description": "A page with an array of random users. The page only displays 10 per page when JavaScript is enabled in the browser, and pagination links let you page-through the results. A search bar helps you to further filter the results by name.",
       "technologies": [
         "JavaScript (Vanilla)",
         "HTML",
@@ -29,13 +31,15 @@
       "github_link": "https://github.com/mjparty88/Page-Pagination-and-Filtering",
       "image_urls": [
         "/static/images/pagination-550x.jpg",
-        "/static/images/pagination-1200x.jpg"
+        "/static/images/pagination-1200x.jpg",
+        "/static/images/pagination1-1200x.jpg",
+        "/static/images/pagination2-1200x.jpg"
       ]
     },
     {
       "id": 2,
       "project_name": "Form Validation",
-      "description": "A registration form for a bogus JavaScript event. The form has client-side form validation and dynamic error messages that guide the user",
+      "description": "A registration form for a bogus JavaScript event. The form has client-side form validation which checks for valid user input, and displays dynamic error messages that guide the user to successful form completion. This project in particular focuses on traversal and manipulation of form elements in the DOM, and makes heavy use of RegEx to validate user input.",
       "technologies": [
         "JavaScript (Vanilla)",
         "RegEx",
@@ -46,13 +50,15 @@
       "github_link": "https://github.com/mjparty88/Form-Validation",
       "image_urls": [
         "/static/images/form-validation-550x.jpg",
-        "/static/images/form-validation-1200x.jpg"
+        "/static/images/form-validation-1200x.jpg",
+        "/static/images/form-validation1-1200x.jpg",
+        "/static/images/form-validation2-1200x.jpg"
       ]
     },
     {
       "id": 3,
       "project_name": "Phrase Hunter",
-      "description": "A fun 'Wheel of Fortune' style game where you select the letters in the phrase. However, instead of winning money, your prize is not losing all your lives!",
+      "description": "A fun 'Wheel of Fortune' style game where you select the letters in the phrase. However, instead of winning money, your prize is not losing all your lives! When you play Phrase Hunter, you win or you die!",
       "technologies": [
         "Object Oriented JavaScript",
         "HTML",
@@ -62,13 +68,15 @@
       "github_link": "https://github.com/mjparty88/Phrase-Hunter",
       "image_urls": [
         "/static/images/phrase-hunter-550x.jpg",
-        "/static/images/phrase-hunter-1220x.jpg"
+        "/static/images/phrase-hunter-1220x.jpg",
+        "/static/images/phrase-hunter1-1220x.jpg",
+        "/static/images/phrase-hunter2-1220x.jpg"
       ]
     },
     {
       "id": 4,
       "project_name": "Public API and Modal",
-      "description": "A simple website that fetches and displays 10 random users using JavaScript promises (i.e. fetch and aysnc/await). Each can be selected, displaying a modal view that lets you cycle through the users. There is also a searched bar (we like search bars).",
+      "description": "A simple website that fetches and displays 10 random users using JavaScript promises (fetch and aysnc/await). Each user displayed can be selected. This displays a modal that lets you cycle through the users. There is also a searched bar (we like search bars) that helps you find specific users. Note, if x number of users are displayed after contucting the search, the array that the modal view uses is reset, meaning the modal is always in sync with the number of displayed users on the screen",
       "technologies": [
         "Object Oriented JavaScript",
         "Promises",
@@ -80,13 +88,15 @@
       "github_link": "https://github.com/mjparty88/Public-API-and-Modal",
       "image_urls": [
         "/static/images/api-request-and-modal-550x.jpg",
-        "/static/images/api-request-and-modal-1200x.jpg"
+        "/static/images/api-request-and-modal-1200x.jpg",
+        "/static/images/api-request-and-modal1-1200x.jpg",
+        "/static/images/api-request-and-modal2-1200x.jpg"
       ]
     },
     {
       "id": 5,
       "project_name": "Portfolio-ception",
-      "description": "This is my portfolio page, containing a summary call my projects. Although most of them are deployed on GitHub pages, this one is different, because it is deployed on Heroku and is integrated with GitHub for continuous deployment.",
+      "description": "This is my portfolio page containing a summary call my projects. Although most of them are deployed on GitHub pages, this one is different, because it is deployed on Heroku and is integrated with GitHub for continuous deployment. It is built using Node.js, Express and Pug templates. It contains an about page with a little more commentary about me, and portfolio page, and a designated page for each project telling you why is amazing and the technology I used to build it!",
       "technologies": [
         "Node.js",
         "Express",
@@ -99,7 +109,9 @@
       "github_link": "https://github.com/mjparty88/Static-Node-and-Express-Site",
       "image_urls": [
         "/static/images/portfolio-550x.jpg",
-        "/static/images/portfolio-1200x.jpg"
+        "/static/images/portfolio-1200x.jpg",
+        "/static/images/portfolio1-1200x.jpg",
+        "/static/images/portfolio2-1200x.jpg"
       ]
     }
   ]
