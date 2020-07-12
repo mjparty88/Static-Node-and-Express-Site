@@ -4,7 +4,7 @@ const homeRouter = require('./routes')
 const aboutRouter = require('./routes/about')
 const projectsRouter = require('./routes/projects')
 const app = express();
-let port = process.env.PORT || 3000;
+let port = process.env.PORT || 3000; //sets the port to the PORT environment variable (in prod), or 3000 in dev.
 
 //sets pug as the view engine
 app.set('view engine', 'pug');
@@ -29,7 +29,8 @@ app.use((err, req, res, next) => {
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
+  console.log("Something went wrong with your request", error)
 });
 
-//listens on port 3000
+//listens on the port
 app.listen(port, () => console.log(`The app is listening at http://localhost:${port}`));
