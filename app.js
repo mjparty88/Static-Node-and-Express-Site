@@ -26,10 +26,11 @@ app.use((req, res, next) => {
 
 //error handling middleware
 app.use((err, req, res, next) => {
+  console.log("There is no page for the site you've looked for on this site.", err.status)
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
-  console.log("Something went wrong with your request", error)
+
 });
 
 //listens on the port
