@@ -96,7 +96,7 @@
     {
       "id": 5,
       "project_name": "Portfolio-ception",
-      "description": "This is my portfolio page containing a summary call my projects. Although most of them are deployed on GitHub pages, this one is different, because it is deployed on Heroku and is integrated with GitHub for continuous deployment. It is built using Node.js, Express and Pug templates. It contains an about page with a little more commentary about me, and portfolio page, and a designated page for each project telling you why is amazing and the technology I used to build it!",
+      "description": "This is my portfolio page containing a summary of all my projects. Although most of them are deployed on GitHub pages, this one is different, because it is deployed on Heroku and is integrated with GitHub for continuous deployment. It is built using Node.js, Express and Pug templates. It contains an about page with a little more commentary about me, and portfolio page, and a designated page for each project telling you why is amazing and the technology I used to build it!",
       "technologies": [
         "Node.js",
         "Express",
