@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //error handling middleware
 app.use((err, req, res, next) => {
-  console.log("There is no page for the site you've looked for on this site.", err.status);
+  console.log("There is no page for this route.", err.status);
   res.locals.error = err;
   res.status(err.status);
   res.render('error');
